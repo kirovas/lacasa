@@ -3,8 +3,7 @@
 
 body{ 	
 	background:
-				url(../images/body-noise.png) repeat left top,
-				url(../images/acerca-de-mi-background.png) no-repeat center 2965px, 	
+				url(../images/body-noise.png) repeat left top, 	
 				url(../images/body-background-pattern.png) repeat-x center 1300px,
 				url(../images/body-background.png) repeat-x center top,
 				url(../images/nav-active-hola.png) no-repeat 9000px 0,
@@ -1235,8 +1234,7 @@ body.work #trabajos header{
 ------------------------------------------------------------------- */
 
 #acerca-de-mi{
-	height:1117px;	
-	background:url(../images/acerca-de-mi-background.jpg) no-repeat 0 0;   
+	height:1117px;	   
 }
 
 #acerca-de-mi .title-header{
@@ -1647,9 +1645,8 @@ px      190   242    242    */
 @media only screen and (min-width: 768px) and (max-width: 1240px) {
 
 body{ 	
-	background:url(../images/hola-background-me.png) no-repeat -335px top,
-				url(../images/body-noise.png) repeat left top,
-				url(../images/acerca-de-mi-background.png) no-repeat -388px 2965px, 	
+	background:
+				url(../images/body-noise.png) repeat left top,	
 				url(../images/body-background-pattern.png) repeat-x center 1300px,
 				url(../images/body-background.png) repeat-x center top,
 				url(../images/nav-active-hola.png) no-repeat 9000px 0,
@@ -1827,10 +1824,8 @@ px      190   242    242    */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 body{ 	
-	background:url(../images/hola-background-me.jpg) no-repeat 575px top,
-				url(../images/body-noise.png) repeat left top,
-				url(../images/acerca-de-mi-background.png) no-repeat -388px 2965px,
-				url(../images/acerca-de-mi-background.jpg) no-repeat 100px 4044px, 	
+	background:
+				url(../images/body-noise.png) repeat left top, 	
 				url(../images/body-background-pattern.png) repeat-x center 1646px,
 				url(../images/body-background-ipad.png) repeat-x center top,
 				url(../images/nav-active-hola.png) no-repeat 9000px 0,
