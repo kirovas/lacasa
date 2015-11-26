@@ -143,6 +143,7 @@ $(document).ready(function() {
 		},
 		afterActive: function() {
 			$('#nav-logo').removeClass().addClass($(this).attr('id').replace('nav-', 'logo-'));
+			$('#nav-slogan').removeClass().addClass($(this).attr('id').replace('nav-', 'slog-'));
 		}
   	});
 });
