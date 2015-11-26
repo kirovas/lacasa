@@ -405,7 +405,29 @@ nav ul{
 			#nav-logo.logo-contacto a{ 
 				background:url(../images/logo-contacto.png) no-repeat center top;
 				}
-			
+			.slog{
+				position: relative;
+    float: left;
+    width: 275px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 37px;
+    font-weight: 400;
+	font-style:italic;
+    color: #9d9c9f;
+    text-shadow: 1px 1px 2px #000;
+    text-transform: uppercase;
+    padding: 9px 14px 3px 32px;
+    z-index: 2;
+			}
+			.personal-info p{
+				color: #9d9c9f;
+    text-shadow: 1px 1px 2px #000;
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 14px;
+	padding-top:3px;
+			}
 .html5{
 	position:fixed; 
 	float:left;
@@ -440,7 +462,7 @@ nav ul{
 }
 
 #hola header{
-	height:420px;
+	height:520px;
 	/*background:url(../images/hola-background-light.png) no-repeat 2px top,
 				url(../images/hola-background-me.jpg) no-repeat right top;*/
 	}
