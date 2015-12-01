@@ -181,7 +181,7 @@ $(document).ready(function() {
 				var responseObject = jQuery.parseJSON(data.substring(data.indexOf("\/\*")+2, data.lastIndexOf("\*\/")));
 				if (responseObject.message) {                            
 					if(responseObject.type == "success") {
-						$("#contactOk").html(responseObject.message).slideToggle("slow").delay(6000).slideToggle("slow");
+						$("#contactOk").html("Contact ok").slideToggle("slow").delay(6000).slideToggle("slow");
 					} else {
 						$("#contactKo").html(responseObject.message).slideToggle("slow").delay(6000).slideToggle("slow");
 					}
