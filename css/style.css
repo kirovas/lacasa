@@ -584,6 +584,30 @@ nav ul{
 	    max-width: 100%;
     margin-bottom: 20px;
 	margin-left:28px;
+	margin-top:30px;
+}
+.table thead th{
+	text-align:center;
+	border:2px solid #fff;
+	padding:10px;
+	background:rgba(0,0,0,0.2);
+}
+.table thead th h4{
+	font-size:18px;
+	padding:0px;
+	margin:0px;
+	line-height:18px;
+}
+.table td{
+	border:2px solid #fff;
+	padding:10px 5px;
+}
+.table td a{
+	color:#F0C3FF;
+	text-decoration:underline;
+}
+.table td a:hover{
+	text-decoration:none;
 }
 .light-ipad{
 	width:130px;
@@ -1015,7 +1039,7 @@ p.exploration, p.design, p.code, p.champagne{
 
 #trabajos header{
 	height:247px;
-	background:url(../images/button.png) no-repeat 50px 0;  
+	  
 	}
 	#trabajos header .title-header{
 		padding-left:264px;
@@ -1381,7 +1405,7 @@ body.work #trabajos header{
 	float:left;
 	width:270px;
 	margin:0px 0 0 38px;
-	border-top:1px solid #464313;
+	border-top:1px solid #E4AAEE;
 }
 
 .contact-info li{
@@ -1391,7 +1415,7 @@ body.work #trabajos header{
 	font-size:16px;	
 	color:#fff;	
 	padding:12px 0 0 62px;
-	border-bottom:1px solid #fff;
+	border-bottom:1px solid #E4AAEE;
 	background:url(../images/contact-icons.png) no-repeat;
 	}
 	.contact-info li a{
@@ -1529,7 +1553,7 @@ input[type=submit]{
 	}
 	input[type=submit]:hover{
 		text-shadow:1px 1px 1px #333;
-		color:#8c8626;
+		color:#603C6A;
 		background:url(../images/airplane.png) no-repeat 250px -20px, 
 						-webkit-gradient(
 							linear, 
