@@ -1,6 +1,6 @@
 /* --- LAYOUT --- 
 ------------------------------------------------------------------- */
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 body{ 	
 	background:
 				url(../images/body-noise.png) repeat left top, 	
@@ -286,7 +286,7 @@ nav ul{
 	background:url(../images/nav-noise.png) repeat-y right top, 
 				url(../images/nav-line.png) no-repeat 53px 328px,
 				url(../images/nav-background-light.png) no-repeat 23px top, 
-				url(../images/nav-background-info.png) no-repeat 23px top, 
+				
 				url(../images/nav-background.png) repeat-y right top;
 	}
 	nav li{ 
@@ -415,15 +415,16 @@ nav ul{
 	float: left;
 	width: 275px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 37px;
 	font-weight: 400;
-	font-style:italic;
+	
 	text-shadow: 1px 1px 2px #000;
-	text-transform: uppercase;
+	
 	padding: 9px 14px 3px 32px;
 	z-index: 2;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', cursive;
+	letter-spacing:2px;
 	}
 	.slog-trabajos{
 	color: #67c6c7;
@@ -431,15 +432,16 @@ nav ul{
 	float: left;
 	width: 275px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 37px;
 	font-weight: 400;
-	font-style:italic;
+	
 	text-shadow: 1px 1px 2px #000;
-	text-transform: uppercase;
+	
 	padding: 9px 14px 3px 32px;
 	z-index: 2;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', cursive;
+	letter-spacing:2px;
 	}
 	.slog-acerca-de-mi{
 		color: #ed4343;
@@ -447,15 +449,16 @@ nav ul{
 	float: left;
 	width: 275px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 37px;
 	font-weight: 400;
-	font-style:italic;
+	
 	text-shadow: 1px 1px 2px #000;
-	text-transform: uppercase;
+	
 	padding: 9px 14px 3px 32px;
 	z-index: 2;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', cursive;
+	letter-spacing:2px;
 	}
 	.slog-contacto{
 		
@@ -464,15 +467,16 @@ nav ul{
 	float: left;
 	width: 275px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 37px;
 	font-weight: 400;
-	font-style:italic;
+	
 	text-shadow: 1px 1px 2px #000;
-	text-transform: uppercase;
+
 	padding: 9px 14px 3px 32px;
 	z-index: 2;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', cursive;
+	letter-spacing:2px;
 	}
 			.personal-info p{
 				color: #9d9c9f;
@@ -1038,11 +1042,13 @@ p.exploration, p.design, p.code, p.champagne{
 /* --- Header --- */
 
 #trabajos header{
-	height:247px;
+	height:115px;
 	  
 	}
 	#trabajos header .title-header{
 		padding-left:264px;
+		padding-top:10px;
+		
 	}
 	#trabajos header .subtitle-header{
 		padding:80px 0 0 264px;
@@ -1118,6 +1124,7 @@ body.work #trabajos header{
 
 .box-image{ 
 	position:absolute;
+	width:248px;
 }
 
 .ampliar-info{
@@ -2068,7 +2075,7 @@ p.exploration, p.design, p.code, p.champagne{
 /* --- Header --- */
 
 #trabajos header{
-	height:247px;
+	height:115px;
 	background:url(../images/button.png) no-repeat 0 0;  
 	}
 	#trabajos header .title-header{
@@ -2173,7 +2180,7 @@ nav, .winner, #crossslide, .light-ipad{
 		padding-bottom:30px;
 		}
 	#contacto{
-		background:#857F24;
+		background:#643F6F;
 		}		
 	#hola img{
 		width:100%;
@@ -2185,7 +2192,10 @@ nav, .winner, #crossslide, .light-ipad{
 		background:none;
 		height:auto;
 		margin:0;
-		}	
+		}
+.table{
+	margin-left:0px;
+}		
 .process-icon{
     float:none;
     margin:20px auto;
