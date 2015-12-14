@@ -125,13 +125,13 @@ nav a{
 }
 
 .title-header{
-	font-size:85px;
+	font-size:75px;
 	line-height:82px;
 	font-weight:700;
 	text-transform:uppercase;
-	letter-spacing:3px;
+	letter-spacing:-1px;
 	text-shadow:1px 1px 1px #333;
-	font-family: 'Lobster', cursive;
+	
 	}
 	.subtitle-header{
 		font-size:25px;
@@ -1127,7 +1127,7 @@ body.work #trabajos header{
 
 .box-image{ 
 	position:absolute;
-	width:248px;
+	width:260px;
 }
 
 .ampliar-info{
@@ -1364,7 +1364,7 @@ body.work #trabajos header{
 	line-height:38px;
 	font-weight:700;
 	text-transform:uppercase;
-	letter-spacing:3px;
+	letter-spacing:-1px;
 	text-shadow:1px 1px 1px #333;
 	margin-bottom:33px;
 	padding-top:30px;
