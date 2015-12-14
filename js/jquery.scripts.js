@@ -157,39 +157,31 @@ $('.works-in-detail').click(function(){
 });
 
 $(document).ready(function() {   
-	$("#myform").bind("submit", function() {                
-		var $form = $(this);
-		$.ajax({
-			type : "post",
-			cache: false,
-			url : $form.attr('action'),
-			data : $form.serialize(),
-			dataType: "text",
-			beforeSend: function() {
-				$("#loading").fadeIn();
-				 $("#contactButtom").attr('disabled', true);
-			},
-			error: function(data) {
+	// this is the id of the form
+$("#myform").submit(function(e) {
+
+    var url = "mail.php"; // the script where you handle the form input.
+
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#main_form").serialize(), // serializes the form's elements.
+           error: function(data) {
 				$("#loading").fadeOut();
 				$("#contactButtom").attr('disabled', false);
 				$("#contactKo").html("Error fatal").fadeIn().delay(5000).fadeOut();
 			},
-			success: function(data) {
-				$("#loading").fadeOut();
-				$("#contactButtom").attr('disabled', false);
-				//las respuestas Json usan un wrapper por seguridad que debe ser borrado para usar el objeto JSON
-				var responseObject = jQuery.parseJSON(data.substring(data.indexOf("\/\*")+2, data.lastIndexOf("\*\/")));
-				if (responseObject.message) {                            
-					if(responseObject.type == "success") {
-						$("#contactOk").html("Contact ok").slideToggle("slow").delay(6000).slideToggle("slow");
-					} else {
-						$("#contactKo").html(responseObject.message).slideToggle("slow").delay(6000).slideToggle("slow");
-					}
-				}
-			}
-		});
-		return false;
-	});
+		   success: function(data)
+           {
+              $("#contactOk").html('<h4>Спасибо! Ваш запрос отправлен!</h4>'); //hide form if we got a true to return
+			  $("#contactOk").show();
+setTimeout(function() { $("#contactOk").hide(); }, 5000);
+            }
+           
+         });
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+});
 	
 	$("#contactOk").bind("click", function() {
 		var $contactOk = $(this);		

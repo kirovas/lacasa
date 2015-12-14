@@ -121,17 +121,18 @@ nav a{
 }
 
 .subtitle-header{
-	font-family: 'Lobster', cursive;
+	font-family: 'Montserrat', cursive;
 }
 
 .title-header{
-	font-size:75px;
+	font-size:61px;
 	line-height:82px;
 	font-weight:700;
 	text-transform:uppercase;
 	letter-spacing:-1px;
 	text-shadow:1px 1px 1px #333;
-	
+	font-family: 'Montserrat', cursive;
+	text-align:center;
 	}
 	.subtitle-header{
 		font-size:25px;
@@ -531,7 +532,7 @@ nav ul{
 		#hola header .subtitle-header{
 			line-height:39px;
 			padding-top:35px;
-			letter-spacing:2px;
+			letter-spacing:-1px;
 			text-transform:inherit;
 		}
 	#hola header .paragraph-header{
@@ -1049,7 +1050,7 @@ p.exploration, p.design, p.code, p.champagne{
 	  
 	}
 	#trabajos header .title-header{
-		padding-left:264px;
+		
 		padding-top:10px;
 		
 	}
@@ -1360,7 +1361,7 @@ body.work #trabajos header{
 }
 
 #acerca-de-mi .title-header{
-	font-size:76px;
+	font-size:61px;
 	line-height:38px;
 	font-weight:700;
 	text-transform:uppercase;
