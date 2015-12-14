@@ -127,11 +127,11 @@ nav a{
 .title-header{
 	font-size:61px;
 	line-height:82px;
-	font-weight:700;
-	text-transform:uppercase;
+	font-weight:400;
+	text-transform:inherit;
 	letter-spacing:-1px;
 	text-shadow:1px 1px 1px #333;
-	font-family: 'Montserrat', cursive;
+	font-family: 'Oswald', sans-serif;
 	text-align:center;
 	}
 	.subtitle-header{
@@ -1363,8 +1363,8 @@ body.work #trabajos header{
 #acerca-de-mi .title-header{
 	font-size:61px;
 	line-height:38px;
-	font-weight:700;
-	text-transform:uppercase;
+	font-weight:400;
+	text-transform:inherit;
 	letter-spacing:-1px;
 	text-shadow:1px 1px 1px #333;
 	margin-bottom:33px;
