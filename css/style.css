@@ -1,4 +1,5 @@
 /* --- LAYOUT --- 
+font-family: 'Lobster', cursive;
 ------------------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 body{ 	
@@ -115,12 +116,12 @@ nav a{
 	font-family: 'Oswald', sans-serif;
 }
 
-.title-header, .title-body, .subtitle-body, .paragraph-header, .work-box p{
+#hola .title-header, .title-body, .subtitle-body, .paragraph-header, .work-box p{
 	font-family: 'Montserrat', sans-serif;
 }
 
 .subtitle-header{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', cursive;
 }
 
 .title-header{
@@ -128,9 +129,9 @@ nav a{
 	line-height:82px;
 	font-weight:700;
 	text-transform:uppercase;
-	letter-spacing:-1px;
+	letter-spacing:3px;
 	text-shadow:1px 1px 1px #333;
-	
+	font-family: 'Lobster', cursive;
 	}
 	.subtitle-header{
 		font-size:25px;
@@ -530,6 +531,8 @@ nav ul{
 		#hola header .subtitle-header{
 			line-height:39px;
 			padding-top:35px;
+			letter-spacing:2px;
+			text-transform:inherit;
 		}
 	#hola header .paragraph-header{
 		padding-top:20px;
@@ -1361,9 +1364,10 @@ body.work #trabajos header{
 	line-height:38px;
 	font-weight:700;
 	text-transform:uppercase;
-	letter-spacing:-2px;
+	letter-spacing:3px;
 	text-shadow:1px 1px 1px #333;
 	margin-bottom:33px;
+	padding-top:30px;
 	}
 	#acerca-de-mi .title-header span{
 		font-size:40px;
